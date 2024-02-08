@@ -3,6 +3,7 @@ Python program that will track Instagram followers telling you when someone foll
 
 THIS IS MADE FOR UNIX ONLY
 This program is used to see names of accounts who have followed and who have unfollowed Instagram accounts recently.
+The module that is used doesn't work from time to time.
 This will also work for private accounts under 2 conditions:
 1. You log in with the private account you want to check
 2. The account you use to log in is following the private account you want to check.
