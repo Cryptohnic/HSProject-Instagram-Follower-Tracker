@@ -79,7 +79,9 @@ def printNonReciprocators():
     not_following_back=following_set-follower_set
     for people in not_following_back:
         print(f'{people} is not following {CHECKING} back')
-    print(f'\n{len(not_following_back)} people are not following {CHECKING} back')
+    if not_following_back:
+        print('\n')
+    print(f'{len(not_following_back)} people are not following {CHECKING} back')
 
 def main():
     login()
