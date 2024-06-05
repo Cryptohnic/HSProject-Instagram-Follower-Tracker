@@ -3,7 +3,6 @@ import os
 
 L = instaloader.Instaloader()
 
-
 def login():
     global USER
     USER = input('\nThis program needs an Instagram account to login to.\nIt can get followers of private accounts that the inputted account follows and followers of all public accounts.\n\nEnter your username: ')
